@@ -10,7 +10,7 @@ int state=0;
   int z=0,xpos=0,ypos=0;
   int x=analogRead(A0);
   int y=analogRead(A1);
-  int sensib=10;   
+  int sensibilité=10;   
   if(x>=550)                     
   xpos=map(x,550,1023,0,sensib); 
   if(x<=450)                  
